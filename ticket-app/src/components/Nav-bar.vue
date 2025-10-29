@@ -5,7 +5,7 @@
         OKICKET
       </h1>
 
-      <!-- Desktop Links -->
+    
       <section class="hidden md:flex items-center gap-6 cursor-pointer">
         <RouterLink
           to="/auth/login"
@@ -21,17 +21,16 @@
         </RouterLink>
       </section>
 
-      <!-- Mobile Menu Button -->
+   
       <button
         class="block md:hidden bg-transparent border-none text-2xl cursor-pointer text-gray-700 transition-colors duration-300 hover:text-emerald-700"
         @click="isOpen = !isOpen"
       >
-        <span v-if="!isOpen">&#9776;</span> <!-- menu icon -->
-        <span v-else>&#10005;</span>         <!-- X icon -->
+        <span v-if="!isOpen">&#9776;</span> 
       </button>
     </header>
 
-    <!-- Mobile Dropdown -->
+
     <section
       v-if="isOpen"
       class="bg-white border-t border-gray-200 shadow-sm flex flex-col items-center py-4 gap-3 md:hidden"

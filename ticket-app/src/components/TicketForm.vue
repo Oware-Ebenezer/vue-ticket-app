@@ -4,7 +4,7 @@
     @submit.prevent="handleSubmit"
   >
     <section class="grid grid-cols-1 md:grid-cols-2 gap-4">
-      <!-- Title -->
+  
       <section>
         <label class="block text-sm font-medium text-gray-600">Title</label>
         <input
@@ -18,7 +18,7 @@
         </p>
       </section>
 
-      <!-- Status -->
+ 
       <section>
         <label class="block text-sm font-medium text-gray-600">Status</label>
         <select
@@ -35,7 +35,7 @@
         </p>
       </section>
 
-      <!-- Description -->
+
       <section class="md:col-span-2">
         <label class="block text-sm font-medium text-gray-600">
           Description (optional)
@@ -51,7 +51,7 @@
         </p>
       </section>
 
-      <!-- Buttons -->
+
       <section class="flex items-center gap-3 mt-4">
         <button
           type="submit"
@@ -70,7 +70,7 @@
       </section>
     </section>
 
-    <!-- Back Button -->
+
     <button
       type="button"
       class="flex items-center justify-center gap-2 mt-4 px-4 py-2 text-white rounded-lg bg-indigo-600 cursor-pointer transition-colors duration-300 hover:bg-indigo-700 disabled:bg-indigo-300 disabled:cursor-not-allowed"
