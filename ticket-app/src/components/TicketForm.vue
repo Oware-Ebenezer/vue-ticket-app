@@ -4,7 +4,7 @@
     @submit.prevent="handleSubmit"
   >
     <section class="grid grid-cols-1 md:grid-cols-2 gap-4">
-  
+      <!-- Title -->
       <section>
         <label class="block text-sm font-medium text-gray-600">Title</label>
         <input
@@ -18,7 +18,7 @@
         </p>
       </section>
 
- 
+      <!-- Status -->
       <section>
         <label class="block text-sm font-medium text-gray-600">Status</label>
         <select
@@ -35,7 +35,7 @@
         </p>
       </section>
 
-
+      <!-- Description -->
       <section class="md:col-span-2">
         <label class="block text-sm font-medium text-gray-600">
           Description (optional)

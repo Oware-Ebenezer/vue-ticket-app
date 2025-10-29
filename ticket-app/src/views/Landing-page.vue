@@ -2,13 +2,12 @@
   <main class="flex flex-col min-h-screen bg-gray-50">
     <Navbar />
 
-    <!-- Hero Section -->
     <section class="relative flex flex-col items-center justify-center text-center py-32 px-6 bg-white overflow-hidden">
-      <!-- Decorative Circles -->
+      
       <div class="absolute w-40 h-40 rounded-full opacity-20 bg-amber-700 top-10 right-20"></div>
       <div class="absolute w-40 h-40 rounded-full opacity-20 bg-blue-700 top-52 left-52"></div>
 
-      <!-- Hero Content -->
+ 
       <div class="relative z-10 max-w-screen-xl mx-auto">
         <h1 class="text-4xl md:text-6xl font-black">OKICKET</h1>
         <h2 class="text-2xl md:text-4xl font-bold text-gray-800 mt-2">
@@ -63,7 +62,7 @@
 <script setup>
 import Footer from "../components/AppFooter.vue";
 import Navbar from "../components/Nav-bar.vue";
-import heroWave from "../../../shared-assets/assets/wave.svg";
+import heroWave from "/wave.svg";
 
 const weOffer = [
   {
