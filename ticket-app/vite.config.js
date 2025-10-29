@@ -10,6 +10,7 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
+  base: import.meta.env.VITE_BASE_PATH || '/vue-ticket-app',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
