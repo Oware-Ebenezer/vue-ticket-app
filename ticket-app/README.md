@@ -1,44 +1,29 @@
-# ticket-app
+# ticketapp-vue
 
-This template should help get you started developing with Vue 3 in Vite.
+Vue + Vite + Tailwind implementation of the Ticket Web App.
 
-## Recommended IDE Setup
+## Requirements
+- Node 16+
+- npm
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Setup
+1. `npm install`
+2. `npm run dev`
 
-## Recommended Browser Setup
+## Session token
+Session token stored at `localStorage.ticketapp_session`
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+## Example credentials
+- Email: `test@example.com`
+- Password: `password123`
+Sign up first with the above
 
-## Customize configuration
+Wavy background svg below
+![alt text](public/wave.svg)
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+Github Repo
+https://github.com/Oware-Ebenezer/vue-ticket-app.git
 
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+## Notes
+- Tickets stored in localStorage (`tickets-db-v1`)
+- Status allowed values: `open`, `in_progress`, `closed`
